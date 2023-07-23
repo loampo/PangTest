@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public BallManager BallManager;
     public UIManager UIManager;
+    public ScoreHolder ScoreHolder;
     public ProjectilePool ProjectilePool;
     public static GameManager instance;
     private float _timer;
